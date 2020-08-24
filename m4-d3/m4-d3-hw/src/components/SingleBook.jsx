@@ -6,9 +6,9 @@ export default class SingleBook extends Component {
         return (
             <div>
                 <Card style={{ width: '22rem' }} className="mb-5" >
-                    {book.map(singleBook => {
+                    {book.map((singleBook, index) => {
                         return (
-                            <>
+                            <div key={index}>
                                 <Card.Img variant="top" src={singleBook.img} />
                                 <Card.Body>
                                     <Card.Title>{singleBook.title}</Card.Title>
@@ -17,7 +17,7 @@ export default class SingleBook extends Component {
                                     </Card.Text>
                                     <Button variant="success">Buy now</Button>
                                 </Card.Body>
-                            </>
+                            </div>
                         )
                     })}
                 </Card>

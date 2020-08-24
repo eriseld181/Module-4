@@ -3,7 +3,7 @@ import { Card, Button } from "react-bootstrap"
 
 export default class SingleBook extends Component {
     render() {
-        { console.log("hahahahaha", this.props.image) }
+
         return (
             <>
 
