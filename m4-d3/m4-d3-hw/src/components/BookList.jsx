@@ -18,7 +18,7 @@ class BookList extends Component {
                             { console.log(allBooks.img) }
                             return (
 
-                                < SingleBook2 image={allBooks.img} />
+                                < SingleBook2 image={allBooks.img} title={allBooks.title} price={allBooks.prices} />
 
                             )
                         })

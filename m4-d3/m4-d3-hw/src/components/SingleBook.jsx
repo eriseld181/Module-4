@@ -15,7 +15,7 @@ export default class SingleBook extends Component {
                                     <Card.Text>
                                         ${singleBook.price}
                                     </Card.Text>
-                                    <Button variant="primary">Buy now</Button>
+                                    <Button variant="success">Buy now</Button>
                                 </Card.Body>
                             </>
                         )

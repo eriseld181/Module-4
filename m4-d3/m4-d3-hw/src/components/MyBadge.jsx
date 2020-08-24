@@ -4,7 +4,7 @@ class MyBadge extends Component {
     render() {
         return (
             <div>
-                <Badge variant="danger" className="p-2 ml-3">{this.props.textBadge}</Badge>
+                <Badge variant="success" className="p-2 ml-3">{this.props.textBadge}</Badge>
             </div>
         )
     }
