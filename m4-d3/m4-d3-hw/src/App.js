@@ -10,8 +10,8 @@ function App() {
     <div className="App ">
       <NavBar />
       <WarningSign text="Do you want to get the latest information about new books? Check it out! " />
-      <Row className="justify-content-center">
-        <SingleBook /></Row>
+      {/* <Row className="justify-content-center">
+        <SingleBook /></Row> */}
 
       <BookList />
     </div>
