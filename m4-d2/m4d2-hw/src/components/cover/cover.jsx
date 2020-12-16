@@ -4,7 +4,7 @@ import coverImg from "./cover.json"
 export default class cover extends Component {
     render() {
         return (
-            <Container>
+            <Container id="haha">
                 <Carousel>
                     {
                         coverImg.map(images => {

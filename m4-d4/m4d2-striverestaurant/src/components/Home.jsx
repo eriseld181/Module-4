@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col, Carousel } from 'react-bootstrap'
 import items from "../data/menu.json"
 import DishComments from "./DishComments"
-
+import Reservations from "./Reservations"
 class Home extends React.Component {
     constructor(props) {
         super(props)
@@ -11,6 +11,7 @@ class Home extends React.Component {
             description: "The best dishies you can find it here",
             selectedDish: null,
         }
+
     }
     selectNewDish = (dish) => {
         this.setState({ selectedDish: dish })
@@ -44,8 +45,14 @@ class Home extends React.Component {
                     </Col>
                 </Row>
                 <Row >
-                    <Col > <DishComments selectedDish={this.state.selectedDish} /></Col>
-
+                    <Col xs={12} >
+                        <DishComments selectedDish={this.state.selectedDish} />
+                    </Col>
+                </Row>
+                <Row >
+                    <Col xs={12} >
+                        <Reservations />
+                    </Col>
                 </Row>
 
             </Container>

@@ -16,8 +16,8 @@ class MyNav extends Component {
                         <Button variant="outline-light"><FaSearch /></Button>
                     </Form>
                     <Nav className="ml-auto ">
-                        <Nav.Link href="#home"  >Home </Nav.Link>
-                        <Nav.Link href="#features">About</Nav.Link>
+                        <Nav.Link href="#hello"  >Home </Nav.Link>
+                        <Nav.Link href="#haha">About</Nav.Link>
                         <Nav.Link href="#pricing">Browse</Nav.Link>
                     </Nav>
 

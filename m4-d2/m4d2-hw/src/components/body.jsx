@@ -10,10 +10,10 @@ const AllBooks = {
 export default class body extends Component {
     render() {
         return (
-            <Container>
+            <Container >
                 <Tabs defaultActiveKey="fantasy" id="uncontrolled-tab-example" className="justify-content-center">
                     <Tab eventKey="fantasy" title="Fantasy" style={{ color: "white" }}>
-                        <Row className="justify-content-left ">
+                        <Row className="justify-content-left " >
                             {AllBooks.fantasy.map(books => {
                                 return (<Card style={{ width: "250px" }} className="ml-4 mb-2 mt-4 mb-5 mr-1" >
                                     <Card.Img variant="top" src={books.img} style={{ height: "350px" }} />
